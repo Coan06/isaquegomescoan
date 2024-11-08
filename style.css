@@ -1,10 +1,4 @@
 
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .foto{
 
 border-radius: 50%;
@@ -25,26 +19,21 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 1rem 0;
+   
+  
     text-align: center;
 }
 
-header h1 {
-    margin-bottom: 0.5rem;
-}
 
-nav ul {
-    list-style: none;
-}
 
-nav ul li {
+ ul li {
     display: inline;
-    margin: 0 1rem;
+    margin:200px;
 }
 
 a {
     color: #fff;
-    text-decoration: none;
+    
 }
 
 
@@ -52,15 +41,15 @@ a {
 
 /* Seções */
 section {
-    padding: 2rem 1rem;
+    padding: 10px 5px;
     max-width: 800px;
     margin: auto;
 }
 
  section h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 5px;
     color: #333;
-    font-size: 1.8rem;
+  
 }
 .habilidades{
     margin-left: 300px;
@@ -97,14 +86,6 @@ section {
         
        }
 /* Contato */
-#contato a {
-    color: #333;
-    text-decoration: none;
-}
-
-#contato a:hover {
-    text-decoration: underline;
-}
 
 /* Rodapé */
 footer {
